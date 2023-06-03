@@ -7,7 +7,6 @@ import static junit.framework.Assert.assertEquals;
 class EngineTest {
     private final Engine engine = new Engine();
 
-
     @Test
     void test_getDigitCount() {
         assertEquals(3, engine.getDigitCount(321));
@@ -21,6 +20,5 @@ class EngineTest {
         assertEquals("XCIV", engine.numberToNumeral(94));
         assertEquals("CMXCIV", engine.numberToNumeral(994));
         assertEquals("MMCDXLIV", engine.numberToNumeral(2444));
-
     }
 }
