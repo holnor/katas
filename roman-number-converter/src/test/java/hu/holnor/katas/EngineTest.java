@@ -15,11 +15,11 @@ class EngineTest {
 
     @Test
     void test_numberToNumeral() {
-        assertEquals("XXXIV", engine.numberToNumeral(34));
-        assertEquals("XLIX", engine.numberToNumeral(49));
-        assertEquals("XCIV", engine.numberToNumeral(94));
-        assertEquals("CMXCIV", engine.numberToNumeral(994));
-        assertEquals("MMCDXLIV", engine.numberToNumeral(2444));
+        assertEquals("XXXIV", engine.arabicToRoman(34));
+        assertEquals("XLIX", engine.arabicToRoman(49));
+        assertEquals("XCIV", engine.arabicToRoman(94));
+        assertEquals("CMXCIV", engine.arabicToRoman(994));
+        assertEquals("MMCDXLIV", engine.arabicToRoman(2444));
     }
 
     @Test

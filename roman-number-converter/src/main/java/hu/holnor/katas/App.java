@@ -13,7 +13,7 @@ public class App {
             if (input.equals("a")) {
                 System.out.println("Enter an arabic number (1-3000) to convert");
                 int arabicNumber = sc.nextInt();
-                System.out.print("Result: " + engine.numberToNumeral(arabicNumber));
+                System.out.print("Result: " + engine.arabicToRoman(arabicNumber));
                 System.out.println();
 
             } else if (input.equals("b")) {

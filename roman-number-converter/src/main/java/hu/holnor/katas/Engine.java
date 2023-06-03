@@ -11,11 +11,11 @@ public class Engine {
      *             CMXCVII -> 997
      *
      * There is no need to be able to convert numbers larger than about 3000.
-     *
+     * Make this program able to convert to the other way as well.
+     * There will be only valid input
      * */
 
-
-    public String numberToNumeral(int number) {
+    public String arabicToRoman(int number) {
         String[][] characterTable = {
                 {"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"},
                 {"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"},
@@ -59,7 +59,7 @@ public class Engine {
         for (int i = 0; i < romanNumber.length() - 1; i++) {
             int actualValue = romanNumerals.get(romanNumber.charAt(i));
             int nextValue = romanNumerals.get(romanNumber.charAt(i + 1));
-            if (actualValue >= nextValue){ //MCMXCIII --> 1993
+            if (actualValue >= nextValue){
                 result += actualValue;
             } else {
                 result -= actualValue;
