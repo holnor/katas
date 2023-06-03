@@ -21,4 +21,9 @@ class EngineTest {
         assertEquals("CMXCIV", engine.numberToNumeral(994));
         assertEquals("MMCDXLIV", engine.numberToNumeral(2444));
     }
+
+    @Test
+    void test_romanToArabic_compile(){
+
+    }
 }

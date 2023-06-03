@@ -4,22 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edd291d3-4ee9-492b-bdb3-1baa4c87719c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roman-number-converter/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roman-number-converter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roman-number-converter/src/main/java/hu/holnor/katas/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roman-number-converter/src/main/java/hu/holnor/katas/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roman-number-converter/src/test/java/hu/holnor/katas/EngineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/holnor/katas/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/holnor/katas/AppTest.java" afterDir="false" />
+    <list default="true" id="edd291d3-4ee9-492b-bdb3-1baa4c87719c" name="Changes" comment="code formatting: unnecessary empty lines has been removed">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roman-number-converter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/roman-number-converter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roman-number-converter/src/main/java/hu/holnor/katas/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/roman-number-converter/src/main/java/hu/holnor/katas/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roman-number-converter/src/main/java/hu/holnor/katas/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/roman-number-converter/src/main/java/hu/holnor/katas/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roman-number-converter/src/test/java/hu/holnor/katas/EngineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/roman-number-converter/src/test/java/hu/holnor/katas/EngineTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,20 +44,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "11",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hu.holnor.katas.App" />
@@ -159,11 +152,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685777968624</updated>
-      <workItem from="1685777970306" duration="8607000" />
+      <workItem from="1685777970306" duration="9268000" />
+      <workItem from="1685802537955" duration="4196000" />
     </task>
+    <task id="LOCAL-00001" summary="converter is tested">
+      <created>1685786879537</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685786879538</updated>
+    </task>
+    <task id="LOCAL-00002" summary="code formatting: unnecessary empty lines has been removed">
+      <created>1685787057276</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685787057276</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="converter is tested" />
+    <MESSAGE value="code formatting: unnecessary empty lines has been removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="code formatting: unnecessary empty lines has been removed" />
   </component>
 </project>
